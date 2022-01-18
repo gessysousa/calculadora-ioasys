@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: linear-gradient(
+    54.13deg,
+    #010101 25.55%,
+    #00192f 72.7%,
+    #002c3f 106.21%
+  );
+}
+
+.fundo {
+  
+  height: 100vh;
+  color: #e00f63;
+  font-family: "Sarala", sans-serif;
+  text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: #e00f63;
+    /* opacity: 0.8; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-color: #a10644;
+    background-color: rgb(31, 31, 31);
+    color: #e00f63;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: black;
+    border-color: #f088b2;
+}
+
+.igual{
+    height: 106px;
+}
+
+.zero{
+    width: 106px;
+}
+
+#resultado{
+    background-color: rgb(31, 31, 31);;
+    width: 213px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #e00f63;
+    text-align: right;
+    padding: 5px;
+}
+
+.footer {
+  padding: 32px;
+  border-top: 0.4px solid #e00f63;
+}
+
+.footer-image {
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+}
